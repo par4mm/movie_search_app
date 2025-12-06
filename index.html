@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Movie Search</h1>
+      <form id="search-form">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for a movie (e.g., Inception)"
+          autocomplete="off"
+        />
+        <button type="submit">Search</button>
+      </form>
+      <p id="message" class="message"></p>
+    </header>
+
+    <main>
+      <div id="results" class="results-grid"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
